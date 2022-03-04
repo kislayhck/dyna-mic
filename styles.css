@@ -1,69 +1,32 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: "Poppins", sans-serif;
-}
-hr {
-  border-color: #72b0b0;
-  width: 70%;
-}
-.header {
-  height: 100vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
-    url(images/bgdemo.jpg);
-  background-position: center;
+  background: #333;
+  background-attachment: fixed;
   background-size: cover;
-  color: #b3acac;
 }
 
-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 2px 20px;
-  padding-top: 10px;
-}
-.websitename {
-  text-transform: uppercase;
-  font-weight: bolder;
-  font-size: 20px;
-  text-decoration: none;
-  padding-left: 10px;
-  color: #b3acac;
-  margin-left: 5px;
-}
-nav-links {
-  flex: 1;
-  text-align: right;
-  color: white;
+#video-background {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
 }
 
-.nav-links ul li {
-  display: inline-block;
-  position: relative;
-  padding: 5px 5px;
-  text-decoration: none;
-  margin-right: 5px;
-}
-
-.nav-links ul li a {
-  color: white;
-  font-weight: 600;
-  font-size: 20px;
-  text-decoration: none;
-}
-.nav-links ul li::after {
-  content: "";
-  width: 0%;
-  height: 2px;
-  background: #718891;
-  display: block;
-  margin: auto;
-  transition: 0.5s;
-}
-
-.nav-links ul li:hover:after {
-  width: 100%;
+h1 {
+  position: absolute;
+  bottom: 1%;
+  left: 5%;
+  width: 94%;
+  font-size: 36px;
+  letter-spacing: 3px;
+  color: #fff;
+  font-family: Montserrat, sans-serif;
+  text-align: left;
 }
 
 .text-section {
