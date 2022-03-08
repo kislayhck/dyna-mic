@@ -4,7 +4,7 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-#clubsincluded {
+#services {
   width: 90%;
   margin: 0 auto;
   text-align: center;
@@ -12,14 +12,14 @@ body {
   margin-bottom: 100px;
 }
 
-#clubsincluded h1 {
+#services h1 {
   font-size: 50px;
   font-weight: 900;
   color: #939a9a;
   margin: 0 auto;
 }
 
-#clubsincluded h1:hover {
+#services h1:hover {
   color: #394545;
 }
 
@@ -30,7 +30,7 @@ body {
   font-size: 80%;
 }
 
-.club-col {
+.services-col {
   flex-basis: 31%;
   background-color: #ecefef;
   padding: 20px 12px;
@@ -38,15 +38,15 @@ body {
   box-sizing: border-box;
   transition: 0.5s;
 }
-.club-col p {
+.services-col p {
   padding-top: 10px;
 }
-.club-col:hover {
+.services-col:hover {
   box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
   background-color: #ecefef;
 }
 
-.clublogo {
+.service-logo {
   height: 150px;
 }
 
@@ -56,12 +56,12 @@ body {
     flex-direction: column;
     margin-top: 0px;
   }
-  .club-col {
+  .services-col {
     width: 100%;
     flex-basis: 100%;
     margin-top: 8px;
   }
-  .clublogo {
+  .service-logo {
     height: 100px;
   }
 }
